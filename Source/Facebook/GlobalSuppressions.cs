@@ -36,3 +36,5 @@
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly", MessageId = "apiSecret", Scope = "member", Target = "Facebook.FacebookSession.#.ctor(System.String,System.String)")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly", MessageId = "JsonWriter", Scope = "member", Target = "Facebook.JsonWriter.#Json")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA2204:Literals should be spelled correctly", MessageId = "TextWriter", Scope = "member", Target = "Facebook.JsonWriter.#Json")]
+
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Facebook.Tests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100c33f0459da20317bb7b839935988fff311e5f24c9719157a6552fc43d0c1f73f3f6af7b4d62aec8e30ae7639f0aa942e3a7a61ad19acd83886efe42bb0c3453afb1b53e31dea327fb0e0f1c13578b53a402fc1193ecde8acfbb125939d88a950f1bb4569ce67319b2c9774f6169354a64bcba0bb6f449ab3d8a7be56e83ed9a6")]

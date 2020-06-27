@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\SharedKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;SIMPLE_JSON_INTERNAL;SIMPLE_JSON_DYNAMIC;SIMPLE_JSON_DATACONTRACT;FLUENTHTTP_URLENCODING;FLUENTHTTP_HTMLENCODING;TPL;ASYNC_AWAIT;FLUENTHTTP_CORE_TPL;FLUENTHTTP_CORE_STREAM;TYPEINFO;</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\CustomDictionary.xml" />
+  </ItemGroup>
+
+</Project>

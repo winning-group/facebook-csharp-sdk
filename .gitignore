@@ -45,3 +45,4 @@ Dist/
 packages/
 NuGet.exe
 doc_output/
+/Source/.vs
