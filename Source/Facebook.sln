@@ -1,14 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook-Net45", "Facebook\Facebook-Net45.csproj", "{857E540C-0092-4590-A279-F98A6B77AC0A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook", "Facebook\Facebook.csproj", "{857E540C-0092-4590-A279-F98A6B77AC0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73EF7C1F-BE73-43D5-8F77-D2909DAA54A2}"
 	ProjectSection(SolutionItems) = preProject
-		..\CHANGES.txt = ..\CHANGES.txt
-		..\jakefile.js = ..\jakefile.js
 		..\README.md = ..\README.md
-		..\VERSION = ..\VERSION
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EF20E8A3-68F4-4EAB-926E-3601E887F98B}"
@@ -19,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EF20E8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{81E951C4-556A-4369-B942-ADF9138A0E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Tests", "Facebook.Tests\Facebook.Tests.csproj", "{C08F42B4-6FF6-488E-90D6-8A47387BCDE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facebook.Tests", "Facebook.Tests\Facebook.Tests.csproj", "{C08F42B4-6FF6-488E-90D6-8A47387BCDE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C08F42B4-6FF6-488E-90D6-8A47387BCDE3} = {81E951C4-556A-4369-B942-ADF9138A0E06}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06FB24C1-C408-432E-8682-6EACA110347A}
 	EndGlobalSection
 EndGlobal
