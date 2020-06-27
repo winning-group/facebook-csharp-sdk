@@ -8,10 +8,31 @@
 
   <PropertyGroup>
     <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;SIMPLE_JSON_INTERNAL;SIMPLE_JSON_DYNAMIC;SIMPLE_JSON_DATACONTRACT;FLUENTHTTP_URLENCODING;FLUENTHTTP_HTMLENCODING;TPL;ASYNC_AWAIT;FLUENTHTTP_CORE_TPL;FLUENTHTTP_CORE_STREAM;TYPEINFO;</DefineConstants>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Winning.Integrations.Facebook</PackageId>
+    <PackageProjectUrl>https://github.com/winning-group/facebook-csharp-sdk</PackageProjectUrl>
+    <Description>Unofficial .NET Standard fork of the Facebook .NET SDK.</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/winning-group/facebook-csharp-sdk</RepositoryUrl>
+    <Copyright>The Outercurve Foundation</Copyright>
+    <Authors>The Outercurve Foundation</Authors>
+    <Product>Facebook .NET Standard SDK</Product>
+    <PackageIcon>logo500x500.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <AdditionalFiles Include="..\CustomDictionary.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\logo500x500.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
